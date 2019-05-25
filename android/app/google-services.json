@@ -1,44 +1,39 @@
 {
   "project_info": {
-    "project_number": "828285270000",
-    "firebase_url": "https://saybot-1525371679719.firebaseio.com",
-    "project_id": "saybot-1525371679719",
-    "storage_bucket": "saybot-1525371679719.appspot.com"
+    "project_number": "347976604232",
+    "firebase_url": "https://flutterchatdemo.firebaseio.com",
+    "project_id": "flutterchatdemo",
+    "storage_bucket": "flutterchatdemo.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:828285270000:android:76c6ec11dd3000f5",
+        "mobilesdk_app_id": "1:347976604232:android:5e864cb592d93aaa",
         "android_client_info": {
-          "package_name": "kr.co.wbay.saybot_client"
+          "package_name": "com.dfa.flutterchatdemo"
         }
       },
       "oauth_client": [
         {
-          "client_id": "828285270000-hf84bq0onfjofn57va4hal82ok8fk5iq.apps.googleusercontent.com",
+          "client_id": "347976604232-k6p3475tsg23qhdgtdjqlb952udl5p9g.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAn4R6xsBFH7UODNftpOOccWc3Rqk13KT0"
+          "current_key": "AIzaSyBoAoZZDb5Mzf8C8WUU6r9WHZvFWmusGN8"
         }
       ],
       "services": {
+        "analytics_service": {
+          "status": 1
+        },
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "828285270000-hf84bq0onfjofn57va4hal82ok8fk5iq.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "828285270000-uoe05n0ufiffmnl32qj5kc81m41gla6i.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "kr.co.wbay.saybotClient"
-              }
-            }
-          ]
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
         }
       }
     }

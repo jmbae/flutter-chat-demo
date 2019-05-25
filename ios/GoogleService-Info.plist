@@ -2,37 +2,39 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>828285270000-uoe05n0ufiffmnl32qj5kc81m41gla6i.apps.googleusercontent.com</string>
+	<string>347976604232-13h782ee23otgsaaiidgeb43jnp1jepd.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.828285270000-uoe05n0ufiffmnl32qj5kc81m41gla6i</string>
-	<key>ANDROID_CLIENT_ID</key>
-	<string>828285270000-sq7sja6p0e4dkin421hgle7nfuo9j6tf.apps.googleusercontent.com</string>
+	<string>com.googleusercontent.apps.347976604232-13h782ee23otgsaaiidgeb43jnp1jepd</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAKFHMVAB6NMTtSW6LsJddo826FZ-ogSeY</string>
+	<string>AIzaSyAdn3U0F35xhx2zUFfz6XPOcNm50erGZS0</string>
 	<key>GCM_SENDER_ID</key>
-	<string>828285270000</string>
+	<string>347976604232</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>kr.co.wbay.saybotClient</string>
+	<string>com.dfa.flutterChatDemo</string>
 	<key>PROJECT_ID</key>
-	<string>saybot-1525371679719</string>
+	<string>flutterchatdemo</string>
 	<key>STORAGE_BUCKET</key>
-	<string>saybot-1525371679719.appspot.com</string>
+	<string>flutterchatdemo.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
 	<false></false>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
+	<false></false>
 	<key>IS_GCM_ENABLED</key>
 	<true></true>
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:828285270000:ios:8a0c0a86db5b5ab7</string>
+	<string>1:347976604232:ios:f43eb2afc88737b9</string>
 	<key>DATABASE_URL</key>
-	<string>https://saybot-1525371679719.firebaseio.com</string>
+	<string>https://flutterchatdemo.firebaseio.com</string>
 </dict>
 </plist>
