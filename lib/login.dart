@@ -74,15 +74,15 @@ class LoginScreenState extends State<LoginScreen> {
       isLoading = true;
     });
 
-    GoogleSignInAccount googleUser = await googleSignIn.signIn();
-    GoogleSignInAuthentication googleAuth = await googleUser.authentication;
+    // GoogleSignInAccount googleUser = await googleSignIn.signIn();
+    // GoogleSignInAuthentication googleAuth = await googleUser.authentication;
 
-    final AuthCredential credential = GoogleAuthProvider.getCredential(
-      accessToken: googleAuth.accessToken,
-      idToken: googleAuth.idToken,
-    );
+    // final AuthCredential credential = GoogleAuthProvider.getCredential(
+    //   accessToken: googleAuth.accessToken,
+    //   idToken: googleAuth.idToken,
+    // );
 
-    FirebaseUser firebaseUser = await firebaseAuth.signInWithCredential(credential);
+    FirebaseUser firebaseUser = await firebaseAuth.signInAnonymously();
 
     if (firebaseUser != null) {
       // Check is already sign up
@@ -144,7 +144,7 @@ class LoginScreenState extends State<LoginScreen> {
               child: FlatButton(
                   onPressed: handleSignIn,
                   child: Text(
-                    'SIGN IN WITH GOOGLE',
+                    'SIGN IN WITH ANONYMOUS',
                     style: TextStyle(fontSize: 16.0),
                   ),
                   color: Color(0xffdd4b39),
